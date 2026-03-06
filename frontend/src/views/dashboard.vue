@@ -48,6 +48,11 @@
             <span class="card-label">PM2.5</span>
             <span class="card-value">{{ aqiData.pm25 }} µg/m³</span>
           </div>
+          <div class="card">
+            <span class="card-icon">🌫️</span>
+            <span class="card-label">PM10</span>
+            <span class="card-value">{{ aqiData.pm10 }} µg/m³</span>
+          </div>
         </div>
 
         <!-- 7天趋势图 -->
